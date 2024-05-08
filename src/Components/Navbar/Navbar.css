@@ -1,0 +1,68 @@
+.logo {
+  font-family: "Cretina", sans-serif;
+}
+@font-face {
+  font-family: "Cretina";
+  src: url("../../utils/Font/NavbarFont/cretina-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "theseasons";
+  src: url("../../utils/Font/TextFont/Fontspring-DEMO-theseasons-lt.otf")
+    format("truetype");
+}
+
+.underline {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-family: "theseasons";
+}
+.underline::before,
+.underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 1px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+.underline::before {
+  left: 0;
+  right: auto !important;
+}
+.underline:hover::before {
+  right: 100%;
+}
+.underline:hover::after {
+  left: 0;
+  width: 100%;
+}
+.hover-container {
+  position: relative;
+  display: inline-block;
+}
+/* CSS for Navbar */
+
+/* Increase icon size smoothly on hover */
+.navbar-icons svg {
+  transition: transform 0.3s ease; /* Adjust the duration and timing function as needed */
+}
+
+.navbar-icons:hover svg {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+.returnToShoppingBtn {
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.returnToShoppingBtn:hover {
+  background-color: #fdfd96;
+  border: 2px solid black;
+}

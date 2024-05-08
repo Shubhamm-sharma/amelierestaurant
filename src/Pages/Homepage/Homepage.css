@@ -1,0 +1,62 @@
+/* first  */
+.hover-container {
+  position: relative;
+  display: inline-block;
+}
+.hover-image {
+  display: none;
+  position: absolute;
+  width: 4rem;
+  top: 50%;
+  transform: translate(-1%, -255%);
+}
+.hover-container:hover .hover-image {
+  display: block;
+}
+/* second  */
+.hover-image-second {
+  width: 3rem !important;
+  transform: translate(19rem, -1rem) !important;
+}
+/* third  */
+.hover-image-third {
+  width: 4rem !important;
+  transform: translate(0rem, -3rem) !important;
+}
+/* fourth  */
+.hover-image-fourth {
+  width: 3rem !important;
+  transform: translate(21rem, -1rem) !important;
+}
+/* fifth  */
+.hover-image-fifth {
+  width: 4rem !important;
+  transform: translate(4rem, -3rem) !important;
+}
+/* sixth  */
+.hover-image-sixth {
+  width: 3rem !important;
+  transform: translate(29rem, -1rem) !important;
+}
+/* seventh  */
+.hover-image-seventh {
+  width: 4rem !important;
+  transform: translate(11rem, -3rem) !important;
+}
+/* eight  */
+.hover-image-eight {
+  width: 3rem !important;
+  transform: translate(41rem, -1rem) !important;
+}
+
+.imageHeight {
+  height: calc(83vh - 85px) !important;
+}
+
+.hover-container h3 {
+  font-size: 40px;
+}
+
+.home-main {
+  background-color: #f0ead6;
+}
